@@ -17,6 +17,9 @@ public class Calculadora {
             throw new ArithmeticException("No se puede dividir por cero");
         }
     }
+    public int modulo(int a, int b) {
+        return a % b;
+    }
     
 
 }
